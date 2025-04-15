@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Personal website showcasing research, CV, and interests for PhD application">
-    <title>Your Name - Researcher</title>
+    <title>Kurt Pasque</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <style>
@@ -13,27 +13,37 @@
             justify-content: center; /* Center the icons under the name */
             gap: 1rem; /* Adjust spacing between icons */
         }
-
         header .contact-icons a i {
             font-size: 1.5rem; /* Slightly smaller icons for the header */
             width: 1.5rem;
             height: 1.5rem;
             line-height: 1.5rem;
+        }       
+        .about-me {
+            max-width: 900px; /* Optional: limit the width of the section */
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
         }
-
+        .about-me img {
+            float: left; /* Position the image to the left */
+            margin-right: 15px; /* Add space between the image and the text */
+            margin-bottom: 10px; /* Add space below the image */
+            width: 300px; /* Set the width of the image */
+            height: auto; /* Maintain the aspect ratio of the image */
+            border-radius: 10px; /* Optional: add rounded corners to the image */
+        }
         .contact-icons {
             display: flex;
             justify-content: center; /* Center the icons horizontally */
             gap: 1.5rem; /* Add spacing between icons */
             margin-top: 1rem;
         }
-
         .contact-icons a {
             color: #c07111; /* Default color for icons */
             text-decoration: none;
             transition: color 0.3s ease; /* Smooth hover effect */
         }
-
         .contact-icons a:hover {
             color: #0077b5; /* Change to a unique color on hover (LinkedIn blue for demo) */
         }
@@ -48,7 +58,6 @@
         .contact-icons a:nth-child(1):hover {
             color: #0077b5; /* Gmail red */
         }
-
         .contact-icons a:nth-child(3):hover {
             color: #6e5494; /* GitHub purple */
         }
@@ -80,6 +89,15 @@
         header p {
             margin: 0.5rem 0;
         }
+        header img {
+            float: middle; /* Position the image to the left */
+            margin-right: 15px; /* Add space between the image and the text */
+            margin-bottom: 10px; /* Add space below the image */
+            margin-top: 20px;
+            width: 250px; /* Set the width of the image */
+            height: auto; /* Maintain the aspect ratio of the image */
+            border-radius: 40px; /* Optional: add rounded corners to the image */
+        }
         nav {
             background: #555;
             text-align: center;
@@ -103,6 +121,15 @@
             border-bottom: 2px solid #333;
             padding-bottom: 0.5rem;
         }
+        section img {
+            float: middle; /* Position the image to the left */
+            margin-right: 15px; /* Add space between the image and the text */
+            margin-bottom: 10px; /* Add space below the image */
+            margin-top: 20px;
+            width: 250px; /* Set the width of the image */
+            height: auto; /* Maintain the aspect ratio of the image */
+            border-radius: 0px; /* Optional: add rounded corners to the image */
+        }
         footer {
             text-align: center;
             background: #333;
@@ -113,29 +140,101 @@
         footer p {
             margin: 0;
         }
+        #certs {
+        padding: 2rem;
+        text-align: center;
+        }
+
+        .cert-grid {
+        display: flex;  
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        }
+
+        .cert-card {
+        background: #f9f9f9;
+        border-radius: 12px;
+        padding: 1rem;
+        width: 280px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        text-align: center;
+        }
+
+        .cert-card img {
+        max-width: 175px;
+        margin-top: 0.5rem;
+        }
+        #education {
+        padding: 2rem;
+        text-align: center;
+        }
+
+        .edu-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 1.5rem;
+        }
+
+        .edu-card {
+        display: flex;
+        align-items: center;
+        background: #f5f5f5;
+        padding: 1rem 1.5rem;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+        width: 400px;
+        text-align: left;
+        gap: 1rem;
+        }
+
+        .edu-logo {
+        width: 60px;
+        height: auto;
+        flex-shrink: 0;
+        }
+
+        .edu-info h3 {
+        margin: 0;
+        }
+
+        .edu-info p {
+        margin: 0.25rem 0;
+        }
+
     </style>
 </head>
 <body>
     <header>
+        <img src="img/black_and_white_headshot.jpg" alt="Stunning Headshot">
         <h1>Kurt Pasque</h1>
         <div class="contact-icons">
-            <a href="mailto:your-email@example.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/yourgithub" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <script>document.write('<a href="mailto:kurt.pasque@nps.edu" target="_blank" title="Email"><i class="fas fa-envelope"></i></a>');</script>
+            <a href="https://linkedin.com/in/kurtpasque" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/KurtPask" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
         </div>
         
     </header>
     
     <nav>
-        <a href="#about">About</a>
+        <!-- <a href="#about">About</a> -->
         <a href="#research">Research</a>
         <a href="#cv">CV</a>
         <a href="#contact">Contact</a>
     </nav>
     
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Welcome to my personal website! I am passionate about [your interests here]. My research focuses on [your research area]. This website serves as a hub for my academic journey, research highlights, and future goals.</p>
+    <section class="about-me">
+        <p>
+            My name is Kurt Pasque and this is my site, I hope it finds you well. Currently, 
+            I am working as a human resources officer in the Navy, 
+            but following this role I hope to enter industry or start a PhD program in 2027. 
+            My master's was in Operations Research which focuses on aiding the decisions making 
+            processes (especially in the context of a business or DoD) by using methods and
+            knowledge from disciplines like math, statistics, and increasingly computer science. 
+            I hope this site paints a picture of my interests and who I am at the moment.
+        </p>
     </section>
 
     <section id="research">
@@ -143,19 +242,73 @@
         <p>Details about your current and past research projects, publications, and areas of interest.</p>
     </section>
 
-    <section id="cv">
-        <h2>Curriculum Vitae</h2>
-        <p><a href="CAP_2024_Handbook.pdf" target="_blank">Download my CV</a></p>
-    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <div class="edu-grid">
+          <div class="edu-card">
+            <a href="https://nps.edu/"><img src="img/nps-logo.png" alt="Naval Postgraduate School logo" class="edu-logo"></a>
+            <div class="edu-info">
+              <h3>Naval Postgraduate School</h3>
+              <p><strong>M.S. in Operations Research</strong></p>
+              <p>Graduated September 2024</p>
+              <p><a href="https://www.mors.org/Professional-Development/Prizes/Stephen-A-Tisdale-Graduate-Research-Prize">MORS Tisdale Graduate Research Prize finalist</a></p>
+              <p><a href="https://hdl.handle.net/10945/73355">Thesis: TROPICAL GEOMETRY IN NEURAL NETWORKS: A NOVEL DEFENSE AGAINST ADVERSARIAL ATTACK</a></p>
+              <p>Advised by <a href="https://faculty.nps.edu/ryoshida/">Dr. Ruriko Yoshida</a> and <a href="https://faculty.nps.edu/jefferson.huang/">Dr. Jefferson Huang</a></p>
+            </div>
+          </div>
+          <div class="edu-card">
+            <a href="https://usna.edu/"><img src="img/usna-logo.png" alt="United States Naval Academy logo" class="edu-logo"></a>
+            <div class="edu-info">
+              <h3>U.S. Naval Academy</h3>
+              <p><strong>B.S. in Mechanical Engineering</strong></p>
+              <p>Class of 2019</p>
+              <p>6th Company (XO, Wardroom Officer, Squad Leader)</p>
+              <p>Service Rifle and Pistol Team</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>If you would like to collaborate or learn more about my work, feel free to reach out:</p>
-    </section>
-    
-
+    <section id="certs">
+        <h2>Certifications</h2>
+        <div class="cert-grid">
+          <div class="cert-card">
+            <a href="https://bcert.me/spnipiemq" target="_blank">
+              <h3>Certified Analytics Professional-Expert</h3>
+            </a>
+            <img src="img/informs-logo.png" alt="INFORMS logo">
+          </div>
+          <div class="cert-card">
+            <a href="https://www.credly.com/go/f22mFv1n" target="_blank">
+              <h3>Professional in Human Resources</h3>
+            </a>
+            <img src="img/hrci-logo.png" alt="HRCI logo">
+          </div>
+          <div class="cert-card">
+            <a href="https://cp.certmetrics.com/uipath/en/public/verify/credential/RZYVT9G11FRE183Q" target="_blank">
+              <h3>UiPath Certified Advanced RPA Developer v1.0 (UiARD)</h3>
+            </a>
+            <img src="img/UiPath-Logo.png" alt="UiPath logo">
+          </div>
+          <div class="cert-card">
+            <a href="https://www.credly.com/badges/ca5be2b1-376b-4934-b092-67ac8b10dfd2/public_url" target="_blank">
+              <h3>Fundamentals of Engineering (FE) Exam</h3>
+            </a>
+            <img src="img/ncees-logo.png" alt="NCEES logo">
+          </div>
+        </div>
+        
+      </section>
+      
     <footer>
-        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+        <p>&copy; <span id="current-year"></span> Kurt Pasque. All Rights Reserved.</p>
     </footer>
+
+    <script>
+        // Get the current year and set it in the footer
+        const currentYear = new Date().getFullYear();
+        document.getElementById("current-year").textContent = currentYear;
+    </script>
 </body>
 </html>
