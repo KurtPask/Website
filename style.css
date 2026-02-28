@@ -311,6 +311,16 @@ flex-grow: 1;
 font-size: 0.95rem;
 margin-bottom: 1rem;
 }
+.project-card ul {
+margin: 0 0 1rem;
+padding-left: 1.1rem;
+font-size: 0.92rem;
+}
+
+.project-card li {
+margin-bottom: 0.35rem;
+}
+
 
 .project-link {
 text-decoration: none;
@@ -320,6 +330,30 @@ font-weight: bold;
 
 .project-link:hover {
 text-decoration: underline;
+}
+
+.experience-grid {
+display: flex;
+flex-wrap: wrap;
+gap: var(--space-6);
+}
+
+.experience-card {
+background: var(--color-bg-surface);
+border-radius: var(--radius-md);
+padding: var(--space-5);
+box-shadow: var(--shadow-sm);
+flex: 1 1 260px;
+}
+
+.experience-card h3 {
+margin-top: 0;
+font-size: 1.08rem;
+}
+
+.experience-card ul {
+margin: 0.5rem 0 0;
+padding-left: 1.1rem;
 }
 
 .pub-list {
