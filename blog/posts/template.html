@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog post template for Kurt Pasque.">
+    <title>Post Template | Kurt Pasque</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" href="../../img/favicon-32x32.png" type="image/png">
+</head>
+<body>
+    <header class="hero blog-hero">
+        <h1>Post Title Goes Here</h1>
+        <p class="hero-title">A short subtitle or thesis statement for the post.</p>
+        <p class="post-meta">Published: January 12, 2026 • Read time: 8 min</p>
+    </header>
+
+    <nav>
+        <a href="../../index.html">Home</a>
+        <a href="../index.html">Blog</a>
+    </nav>
+
+    <main class="content-section post-layout">
+        <section>
+            <h2>Overview</h2>
+            <p>Use this section to introduce the post context, the decision problem, or the central question. Keep this concise and make the value of reading clear.</p>
+        </section>
+
+        <section>
+            <h2>Key Insight</h2>
+            <p>Summarize the main takeaway in practical terms. Explain what changed in your understanding and why this matters for the target audience.</p>
+        </section>
+
+        <section>
+            <h2>Implementation Notes</h2>
+            <p>Capture process details, assumptions, frameworks, and tradeoffs. This section can include short lists, examples, and links to related resources.</p>
+        </section>
+
+        <section>
+            <h2>References</h2>
+            <ul class="post-references">
+                <li>Author, A. A. (Year). <em>Title of source.</em> Publisher or venue.</li>
+                <li>Author, B. B. (Year). <em>Another source title.</em> URL or citation detail.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Kurt Pasque. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        const currentYear = new Date().getFullYear();
+        document.getElementById("current-year").textContent = currentYear;
+    </script>
+</body>
+</html>
