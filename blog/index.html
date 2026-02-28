@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kurt Pasque's blog on operations research, machine learning, defense, and leadership.">
+    <title>Blog | Kurt Pasque</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../img/favicon-32x32.png" type="image/png">
+</head>
+<body>
+    <header class="hero blog-hero">
+        <h1>Blog</h1>
+        <p class="hero-title">Notes on analytical rigor, mission outcomes, and leading technical teams.</p>
+        <p class="hero-subtitle">I write about turning operations research into practical decisions, applying machine learning in high-stakes settings, strengthening defense readiness through better analytics, and building leadership habits that help teams execute under pressure.</p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../index.html#education">Education</a>
+        <a href="../index.html#certs">Certifications</a>
+        <a href="../index.html#publications">Publications</a>
+        <a href="../index.html#projects">Projects</a>
+    </nav>
+
+    <main class="content-section blog-main">
+        <section>
+            <h2>Categories</h2>
+            <div class="blog-tags">
+                <span>Operations Research</span>
+                <span>ML</span>
+                <span>Defense</span>
+                <span>Leadership</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Recent Posts</h2>
+            <div class="blog-card-list">
+                <article class="blog-card">
+                    <p class="blog-card-date">January 12, 2026</p>
+                    <h3>From Models to Mission Decisions: A Leadership Framework for Analytics Teams</h3>
+                    <p>Practical structure for converting analytical outputs into commander-ready recommendations.</p>
+                    <a href="posts/template.html" class="project-link">Read post</a>
+                </article>
+
+                <article class="blog-card">
+                    <p class="blog-card-date">December 3, 2025</p>
+                    <h3>Where Optimization Meets Operations: Planning for Real Constraints</h3>
+                    <p>Lessons from balancing model fidelity with the realities of personnel, tempo, and logistics.</p>
+                    <a href="posts/template.html" class="project-link">Read post</a>
+                </article>
+
+                <article class="blog-card">
+                    <p class="blog-card-date">October 18, 2025</p>
+                    <h3>ML in Defense Contexts: Building Trust Before Deployment</h3>
+                    <p>A checklist for validating machine-learning systems before they influence mission-critical decisions.</p>
+                    <a href="posts/template.html" class="project-link">Read post</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Kurt Pasque. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        const currentYear = new Date().getFullYear();
+        document.getElementById("current-year").textContent = currentYear;
+    </script>
+</body>
+</html>
