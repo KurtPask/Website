@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Personal website for Kurt Pasque featuring operations research, AI projects, publications, leadership experience, and professional credentials.">
     <title>Kurt Pasque</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="img/favicon-professional.svg" type="image/svg+xml">
+    <link rel="icon" href="img/favicon-kp.svg" type="image/svg+xml">
 </head>
 <body>
     <header class="site-header">
@@ -24,21 +24,27 @@
 
     <main class="document">
         <section id="profile" class="hero-block">
-            <h1>Kurt Pasque</h1>
-            <p class="hero-kicker">Operations Research · Applied AI · U.S. Navy Officer</p>
-            <p class="hero-intro">I build decision systems for mission-critical environments, with a focus on machine learning, optimization, and organizational execution.</p>
-            <div class="link-row" id="contact">
-                <a href="assets/Kurt_Pasque_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
-                <a href="mailto:kurtpasque@gmail.com">Email</a>
-                <a href="https://linkedin.com/in/kurtpasque" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <a href="https://github.com/KurtPask" target="_blank" rel="noopener noreferrer">GitHub</a>
-                <a href="https://scholar.google.com/citations?user=bgZHxkAAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+            <div class="hero-copy">
+                <p class="section-label">Research Dossier · 2026</p>
+                <h1>Kurt Pasque</h1>
+                <p class="hero-kicker">Operations Research · Applied AI · U.S. Navy Officer</p>
+                <p class="hero-intro">I design decision systems for mission-critical environments, combining optimization, machine learning, and execution-focused leadership.</p>
+                <div class="link-row" id="contact">
+                    <a href="assets/Kurt_Pasque_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+                    <a href="mailto:kurtpasque@gmail.com">Email</a>
+                    <a href="https://linkedin.com/in/kurtpasque" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://github.com/KurtPask" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://scholar.google.com/citations?user=bgZHxkAAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+                </div>
             </div>
+            <figure class="hero-photo frame-br">
+                <img src="img/black_and_white_headshot.jpg" alt="Black and white portrait of Kurt Pasque">
+            </figure>
         </section>
 
         <section class="document-section">
             <h2>Selected Signals</h2>
-            <ul class="clean-list">
+            <ul class="clean-list frame-br compact-frame">
                 <li>INFORMS Military &amp; Security Society Donald P. Gaver, Jr. Thesis Research Award winner (2025).</li>
                 <li>MORS Stephen A. Tisdale Graduate Research Prize finalist.</li>
                 <li>Leads AI integration initiatives at Naval Education and Training Command.</li>
@@ -51,6 +57,12 @@
 
             <div class="subsection">
                 <h3>Education</h3>
+                <div class="edu-visual-strip frame-br" aria-hidden="true">
+                    <img src="img/nps-logo.png" alt="">
+                    <img src="img/usna-logo.png" alt="">
+                    <img src="img/nps-logo.png" alt="">
+                    <img src="img/usna-logo.png" alt="">
+                </div>
                 <ul class="item-list">
                     <li>
                         <p class="item-title">Naval Postgraduate School · M.S., Operations Research</p>
@@ -67,7 +79,7 @@
 
             <div class="subsection">
                 <h3>Professional Certifications</h3>
-                <ul class="item-list compact">
+                <ul class="item-list compact cert-list">
                     <li><a href="https://bcert.me/spnipiemq" target="_blank" rel="noopener noreferrer">Certified Analytics Professional-Expert</a></li>
                     <li><a href="https://www.credly.com/go/f22mFv1n" target="_blank" rel="noopener noreferrer">Professional in Human Resources</a></li>
                     <li><a href="https://cp.certmetrics.com/uipath/en/public/verify/credential/RZYVT9G11FRE183Q" target="_blank" rel="noopener noreferrer">UiPath Certified Advanced RPA Developer v1.0 (UiARD)</a></li>
@@ -102,20 +114,20 @@
 
             <div class="subsection">
                 <h3>Selected Work Archive</h3>
-                <ul class="item-list">
-                    <li>
+                <ul class="item-list feature-list">
+                    <li class="frame-br">
                         <p class="item-title">Tropical CNNs</p>
                         <p class="item-note">Evaluated robustness of tropical CNN approaches under adversarial perturbations. <a href="https://github.com/KurtPask/TropicalNN" target="_blank" rel="noopener noreferrer">Repository</a>.</p>
                     </li>
-                    <li>
+                    <li class="frame-br">
                         <p class="item-title">Anti-Submarine Drone Warfare Simulation</p>
                         <p class="item-note">Discrete-event simulation estimating carrier-based drone force structure for sustained anti-submarine operations. <a href="https://github.com/KurtPask/ASW_DES_Paper" target="_blank" rel="noopener noreferrer">Repository</a>.</p>
                     </li>
-                    <li>
+                    <li class="frame-br">
                         <p class="item-title">Naval Postgraduate School Return on Investment Analysis</p>
                         <p class="item-note">Developed quantitative metrics to communicate educational ROI to Department of Defense stakeholders. <a href="https://github.com/KurtPask/NPS-ROI-Capstone" target="_blank" rel="noopener noreferrer">Repository</a>.</p>
                     </li>
-                    <li>
+                    <li class="frame-br">
                         <p class="item-title">Eval First Draft + FitRep First Draft Launch</p>
                         <p class="item-note">Built and released lightweight generation tools, including front-end workflows, API-backed drafting pipelines, and iterative reliability improvements from early user feedback. <a href="https://evalfirstdraft.com" target="_blank" rel="noopener noreferrer">evalfirstdraft.com</a>, <a href="https://fitrepfirstdraft.com" target="_blank" rel="noopener noreferrer">fitrepfirstdraft.com</a>, and <a href="https://www.linkedin.com/posts/kurtpasque_fast-track-your-navy-evals-and-fitreps-activity-7340721133534461952-qkD8?utm_source=share&utm_medium=member_ios&rcm=ACoAACTHCb4BQVRGxCXFC3ina32c6nL_Vvmdj8Y" target="_blank" rel="noopener noreferrer">launch note</a>.</p>
                     </li>
