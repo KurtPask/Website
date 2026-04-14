@@ -107,7 +107,7 @@ nav a {
 
 .hero-block {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 240px;
+    grid-template-columns: minmax(0, 1fr) 280px;
     gap: 2.2rem;
     align-items: start;
     padding-bottom: 2.7rem;
@@ -152,8 +152,8 @@ h1 {
     margin: 0;
     padding: 0.3rem;
     background: var(--surface);
-    width: 170px;
-    height: 170px;
+    width: 225px;
+    height: 225px;
     border-radius: 50%;
     overflow: hidden;
     justify-self: end;
@@ -246,10 +246,7 @@ h3 {
 }
 
 .feature-list li {
-    padding: 0.7rem 0.8rem;
-    border-top: 0;
-    margin-bottom: 0.65rem;
-    background: var(--surface);
+    margin-bottom: 0;
 }
 
 .more-link {
@@ -265,26 +262,49 @@ h3 {
     border-bottom: 1px solid var(--line-strong);
 }
 
-.compact-frame {
-    padding: 0.6rem 0.9rem;
+.entry-frame {
+    border-right: 1px solid var(--line-strong);
+    border-bottom: 1px solid var(--line-strong);
+    border-top: 0 !important;
     background: var(--surface);
+    padding: 0.72rem 0.9rem !important;
 }
 
-.edu-visual-strip {
-    margin-top: 0.95rem;
-    padding: 0.45rem 0.75rem;
-    background: var(--surface);
+.clean-list,
+.item-list,
+.pub-list,
+.blog-card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.62rem;
+}
+
+.item-title.with-logo {
     display: flex;
     align-items: center;
-    gap: 1.4rem;
+    gap: 0.56rem;
+    flex-wrap: wrap;
 }
 
-.education-logo {
-    width: 112px;
-    height: 58px;
+.inline-logo {
+    display: inline-block;
     object-fit: contain;
-    display: block;
-    filter: grayscale(100%) saturate(0%) contrast(1.12) brightness(0.92);
+    filter: grayscale(100%) saturate(0%) contrast(1.08) brightness(0.9);
+    opacity: 0.92;
+}
+
+.edu-logo {
+    width: 48px;
+    height: 24px;
+}
+
+.cert-logo {
+    width: 44px;
+    height: 22px;
+}
+
+.compact-frame {
+    padding: 0.56rem 0.84rem !important;
 }
 
 .cert-list {
@@ -386,8 +406,8 @@ footer {
 
     .hero-photo {
         justify-self: start;
-        width: 150px;
-        height: 150px;
+        width: 180px;
+        height: 180px;
     }
 }
 
