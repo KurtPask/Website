@@ -5,244 +5,146 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Personal website for Kurt Pasque featuring operations research, AI projects, publications, leadership experience, and professional credentials.">
     <title>Kurt Pasque</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/favicon-professional.svg" type="image/svg+xml">
 </head>
 <body>
-    <header class="hero">
-        <img src="img/Headshot.jpeg" alt="Portrait of Kurt Pasque">
-        <h1>Kurt Pasque</h1>
-        <p class="hero-title">Data Scientist | Operations Research | U.S. Navy Officer</p>
-        <p class="hero-subtitle">Data scientist with an M.S. in Operations Research and experience applying machine learning, optimization, and systems modeling to improve decision-making in complex organizations.</p>
-        <div class="hero-cta">
-            <a href="assets/Kurt_Pasque_Resume.pdf" target="_blank" rel="noopener noreferrer" class="cta-button">Resume</a>
-            <a href="#projects" class="cta-button">View Projects</a>
-            <a href="mailto:kurtpasque@gmail.com" class="cta-button cta-secondary">Contact</a>
-        </div>
-        <div class="contact-icons">
-            <script>document.write('<a href="mailto:kurtpasque@gmail.com" target="_blank" rel="noopener noreferrer" title="Email"><i class="fas fa-envelope"></i></a>');</script>
-            <a href="https://linkedin.com/in/kurtpasque" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/KurtPask" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fab fa-github"></i></a>
-            <a href="https://scholar.google.com/citations?user=bgZHxkAAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-        </div>
+    <header class="site-header">
+        <p class="site-name">Kurt Pasque</p>
+        <nav aria-label="Primary">
+            <a href="#profile">Profile</a>
+            <a href="#credentials">Credentials</a>
+            <a href="#work">Work</a>
+            <a href="#publications">Publications</a>
+            <a href="#contact">Contact</a>
+            <a href="blog/index.html">Blog</a>
+        </nav>
     </header>
 
-    <nav aria-label="Primary">
-        <a href="#education">Education</a>
-        <a href="#experience">Experience</a>
-        <a href="#certs">Certifications</a>
-        <a href="#publications">Publications</a>
-        <a href="#projects">Projects</a>
-        <a href="blog/index.html">Blog</a>
-    </nav>
-
-    <main>
-    <section id="highlights" class="content-section">
-        <h2>Highlights</h2>
-        <ul class="highlights-list">
-            <li>Winner, <strong>2025 INFORMS Military &amp; Security Society Donald P. Gaver, Jr. Thesis Research Award</strong>.</li>
-            <li>Finalist, <strong>MORS Stephen A. Tisdale Graduate Research Prize</strong>.</li>
-            <li>Leading AI integration efforts at <strong>Naval Education and Training Command</strong>.</li>
-            <li>Research collaborator on tropical-geometry and neural algorithmic reasoning projects at <strong>Naval Postgraduate School</strong>.</li>
-        </ul>
-    </section>
-
-    <section id="interview-links" class="content-section quick-links-panel">
-        <h2>Quick Links</h2>
-        <div class="quick-links-grid">
-            <a href="assets/Kurt_Pasque_Resume.pdf" target="_blank" rel="noopener noreferrer" class="quick-link">Resume</a>
-            <a href="#publications" class="quick-link">Publications</a>
-            <a href="https://github.com/KurtPask/TropicalNN" target="_blank" rel="noopener noreferrer" class="quick-link">Top Project Repo</a>
-            <a href="https://linkedin.com/in/kurtpasque" target="_blank" rel="noopener noreferrer" class="quick-link">LinkedIn</a>
-            <a href="https://scholar.google.com/citations?user=bgZHxkAAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="quick-link">Google Scholar</a>
-            <a href="mailto:kurtpasque@gmail.com" class="quick-link">Email</a>
-        </div>
-    </section>
-
-    <section id="education" class="content-section">
-        <h2>Education</h2>
-        <div class="edu-grid">
-            <div class="edu-card">
-                <a href="https://nps.edu/" target="_blank" rel="noopener noreferrer">
-                  <img src="img/nps-logo.png" alt="Naval Postgraduate School logo" class="edu-logo">
-                </a>
-                <div class="edu-info">
-                  <h3>Naval Postgraduate School</h3>
-                  <p><strong>M.S. in Operations Research</strong></p>
-                  <p>2022–2024 | GPA: 3.92/4.00</p>
-                  <div class="edu-detail-block">
-                    <p><i>Honors &amp; Awards:</i></p>
-                    <ul>
-                      <li><a href="https://www.mors.org/Professional-Development/Prizes/Stephen-A-Tisdale-Graduate-Research-Prize" target="_blank" rel="noopener noreferrer">MORS Tisdale Graduate Research Prize</a> finalist</li>
-                      <li>INFORMS Military and Security Society's 2025 Donald P. Gaver, Jr. Thesis Research Award winner</li>
-                    </ul>
-                  </div>
-                </div>
+    <main class="document">
+        <section id="profile" class="hero-block">
+            <h1>Kurt Pasque</h1>
+            <p class="hero-kicker">Operations Research · Applied AI · U.S. Navy Officer</p>
+            <p class="hero-intro">I build decision systems for mission-critical environments, with a focus on machine learning, optimization, and organizational execution.</p>
+            <div class="link-row" id="contact">
+                <a href="assets/Kurt_Pasque_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+                <a href="mailto:kurtpasque@gmail.com">Email</a>
+                <a href="https://linkedin.com/in/kurtpasque" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/KurtPask" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://scholar.google.com/citations?user=bgZHxkAAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
             </div>
+        </section>
 
-            <div class="edu-card">
-              <a href="https://www.usna.edu/homepage.php" target="_blank" rel="noopener noreferrer">
-                <img src="img/usna-logo.png" alt="United States Naval Academy logo" class="edu-logo">
-              </a>
-              <div class="edu-info">
-                <h3>United States Naval Academy</h3>
-                <p><strong>B.S. in Mechanical Engineering</strong></p>
-                <p>2015–2019</p>
-                <div class="edu-detail-block">
-                  <p><i>Highlights:</i></p>
-                  <ul>
-                    <li>6th Company (XO, Wardroom Officer, Squad Leader)</li>
-                    <li>Service Rifle and Pistol Team</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-        </div>
-      </section>
-
-      <section id="experience" class="content-section">
-        <h2>Experience</h2>
-        <div class="experience-grid">
-          <div class="experience-card">
-            <h3>Data Scientist — Naval Education and Training Command</h3>
-            <p class="pub-meta">2024–Present</p>
-            <ul>
-              <li>Leading AI integration efforts, workforce training, and pilot project execution in the NETC domain.</li>
-              <li>Supporting cross-functional teams to redesign Navy training with data-driven approaches.</li>
-              <li>Building Databricks, Tableau, Power BI, and Excel products for senior leader decision support.</li>
+        <section class="document-section">
+            <h2>Selected Signals</h2>
+            <ul class="clean-list">
+                <li>INFORMS Military &amp; Security Society Donald P. Gaver, Jr. Thesis Research Award winner (2025).</li>
+                <li>MORS Stephen A. Tisdale Graduate Research Prize finalist.</li>
+                <li>Leads AI integration initiatives at Naval Education and Training Command.</li>
+                <li>Research collaborator on tropical geometry and neural algorithmic reasoning at Naval Postgraduate School.</li>
             </ul>
-          </div>
-          <div class="experience-card">
-            <h3>Research Collaborator — Naval Postgraduate School</h3>
-            <p class="pub-meta">2024–Present</p>
-            <ul>
-              <li>Contributed to tropical-attention research presented as a NeurIPS 2025 poster.</li>
-              <li>Serving as experiment lead on research related to universal reasoning models.</li>
-            </ul>
-          </div>
-          <div class="experience-card">
-            <h3>Division Officer — U.S. Navy Pay and Personnel Support Center</h3>
-            <p class="pub-meta">2019–2022</p>
-            <ul>
-              <li>Built UiPath automations to reduce repetitive back-office processing requirements.</li>
-              <li>Led Navy-wide transition activities from legacy systems to Salesforce CRM.</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+        </section>
 
-    <section id="certs" class="content-section">
-        <h2>Certifications</h2>
-        <div class="cert-grid">
-          <div class="cert-card">
-            <a href="https://bcert.me/spnipiemq" target="_blank" rel="noopener noreferrer">
-              <h3>Certified Analytics Professional-Expert</h3>
-            </a>
-            <img src="img/informs-logo.png" alt="INFORMS logo">
-          </div>
-          <div class="cert-card">
-            <a href="https://www.credly.com/go/f22mFv1n" target="_blank" rel="noopener noreferrer">
-              <h3>Professional in Human Resources</h3>
-            </a>
-            <img src="img/hrci-logo.png" alt="HRCI logo">
-          </div>
-          <div class="cert-card">
-            <a href="https://cp.certmetrics.com/uipath/en/public/verify/credential/RZYVT9G11FRE183Q" target="_blank" rel="noopener noreferrer">
-              <h3>UiPath Certified Advanced RPA Developer v1.0 (UiARD)</h3>
-            </a>
-            <img src="img/UiPath-Logo.png" alt="UiPath logo">
-          </div>
-          <div class="cert-card">
-            <a href="https://www.credly.com/badges/ca5be2b1-376b-4934-b092-67ac8b10dfd2/public_url" target="_blank" rel="noopener noreferrer">
-              <h3>Fundamentals of Engineering (FE) Exam</h3>
-            </a>
-            <img src="img/ncees-logo.png" alt="NCEES logo">
-          </div>
-        </div>
-      </section>
+        <section id="credentials" class="document-section">
+            <h2>Credentials</h2>
 
-      <section id="projects" class="content-section">
-        <h2>Projects</h2>
-        <div class="projects-grid">
-          <div class="project-card">
-            <h3>Tropical CNNs</h3>
-            <p>Experiment evaluating the robustness of tropical CNN approaches under adversarial perturbations.</p>
-            <a href="https://github.com/KurtPask/TropicalNN" target="_blank" rel="noopener noreferrer" class="project-link">View on GitHub</a>
-          </div>
-
-          <div class="project-card">
-            <h3>Anti-Submarine Drone Warfare Simulation</h3>
-            <p>Discrete-event simulation to estimate carrier-based drone force structure required for sustained anti-submarine operations.</p>
-            <a href="https://github.com/KurtPask/ASW_DES_Paper" target="_blank" rel="noopener noreferrer" class="project-link">View on GitHub</a>
-          </div>
-
-          <div class="project-card">
-            <h3>Investigating Naval Postgraduate School Return on Investment</h3>
-            <p>Capstone analysis that developed metrics to communicate NPS educational ROI to Department of Defense stakeholders.</p>
-            <a href="https://github.com/KurtPask/NPS-ROI-Capstone" target="_blank" rel="noopener noreferrer" class="project-link">View on GitHub</a>
-          </div>
-
-          <div class="project-card">
-            <h3>Eval First Draft + FitRep First Draft Launch</h3>
-            <p>Launched small production tools focused on accelerating Navy eval/FITREP drafting and captured key implementation lessons.</p>
-            <ul>
-              <li>Built and deployed front-end workflows for <a href="https://evalfirstdraft.com" target="_blank" rel="noopener noreferrer" class="project-link">evalfirstdraft.com</a> and <a href="https://fitrepfirstdraft.com" target="_blank" rel="noopener noreferrer" class="project-link">fitrepfirstdraft.com</a>.</li>
-              <li>Set up API-backed generation flows and lightweight ALM practices (issue tracking, feedback loops, and iterative releases).</li>
-              <li>Used early user feedback to improve reliability, prompt quality, and time-to-first-draft.</li>
-            </ul>
-            <a href="https://www.linkedin.com/posts/kurtpasque_fast-track-your-navy-evals-and-fitreps-activity-7340721133534461952-qkD8?utm_source=share&utm_medium=member_ios&rcm=ACoAACTHCb4BQVRGxCXFC3ina32c6nL_Vvmdj8Y" target="_blank" rel="noopener noreferrer" class="project-link">View launch announcement</a>
-          </div>
-        </div>
-      </section>
-
-      <section id="publications" class="content-section">
-        <h2>Publications</h2>
-        <ul class="pub-list">
-          <li class="pub-item">
-            <h3>
-              <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/120059" target="_blank" rel="noopener noreferrer">
-                Tropical Attention: Neural Algorithmic Reasoning for Combinatorial Algorithms
-              </a>
-            </h3>
-            <p class="pub-meta"><strong>Authors:</strong> Baran Hashemi, Kurt Pasque, Chris Teska, Ruriko Yoshida</p>
-            <p class="pub-meta"><strong>Venue/Year:</strong> NeurIPS 2025 (Poster)</p>
-            <div class="pub-tags">
-              <span>Conference</span>
+            <div class="subsection">
+                <h3>Education</h3>
+                <ul class="item-list">
+                    <li>
+                        <p class="item-title">Naval Postgraduate School · M.S., Operations Research</p>
+                        <p class="item-meta">2022–2024 · GPA 3.92/4.00</p>
+                        <p class="item-note">Honors: <a href="https://www.mors.org/Professional-Development/Prizes/Stephen-A-Tisdale-Graduate-Research-Prize" target="_blank" rel="noopener noreferrer">MORS Tisdale Graduate Research Prize finalist</a>; INFORMS Military and Security Society Donald P. Gaver, Jr. Thesis Research Award winner.</p>
+                    </li>
+                    <li>
+                        <p class="item-title">United States Naval Academy · B.S., Mechanical Engineering</p>
+                        <p class="item-meta">2015–2019</p>
+                        <p class="item-note">Leadership roles in 6th Company (XO, Wardroom Officer, Squad Leader); Service Rifle and Pistol Team.</p>
+                    </li>
+                </ul>
             </div>
-          </li>
-          <li class="pub-item">
-            <h3>
-              <a href="https://www.sciencedirect.com/science/article/pii/S0893608026000869" target="_blank" rel="noopener noreferrer">
-                Adversarially robust neural network decision boundaries via tropical geometry
-              </a>
-            </h3>
-            <p class="pub-meta"><strong>Authors:</strong> Kurt Pasque, Christopher Teska, Ruriko Yoshida, Keiji Miura, Jefferson Huang</p>
-            <p class="pub-meta"><strong>Venue/Year:</strong> Neural Networks, 2026</p>
-            <div class="pub-tags">
-              <span>Journal</span>
+
+            <div class="subsection">
+                <h3>Professional Certifications</h3>
+                <ul class="item-list compact">
+                    <li><a href="https://bcert.me/spnipiemq" target="_blank" rel="noopener noreferrer">Certified Analytics Professional-Expert</a></li>
+                    <li><a href="https://www.credly.com/go/f22mFv1n" target="_blank" rel="noopener noreferrer">Professional in Human Resources</a></li>
+                    <li><a href="https://cp.certmetrics.com/uipath/en/public/verify/credential/RZYVT9G11FRE183Q" target="_blank" rel="noopener noreferrer">UiPath Certified Advanced RPA Developer v1.0 (UiARD)</a></li>
+                    <li><a href="https://www.credly.com/badges/ca5be2b1-376b-4934-b092-67ac8b10dfd2/public_url" target="_blank" rel="noopener noreferrer">Fundamentals of Engineering (FE) Exam</a></li>
+                </ul>
             </div>
-          </li>
-          <li class="pub-item">
-            <h3>
-              <a href="https://hdl.handle.net/10945/73355" target="_blank" rel="noopener noreferrer">
-                Tropical Geometry in Neural Networks: A Novel Defense against Adversarial Attack
-              </a>
-            </h3>
-            <p class="pub-meta"><strong>Authors:</strong> Kurt Pasque</p>
-            <p class="pub-meta"><strong>Venue/Year:</strong> Naval Postgraduate School Master's thesis, 2024</p>
-            <div class="pub-tags">
-              <span>Master's Thesis</span>
+        </section>
+
+        <section id="work" class="document-section">
+            <h2>Work</h2>
+
+            <div class="subsection">
+                <h3>Current and Prior Roles</h3>
+                <ul class="item-list">
+                    <li>
+                        <p class="item-title">Data Scientist · Naval Education and Training Command</p>
+                        <p class="item-meta">2024–Present</p>
+                        <p class="item-note">Leads AI integration programs, training modernization efforts, and data products supporting senior-level decisions.</p>
+                    </li>
+                    <li>
+                        <p class="item-title">Research Collaborator · Naval Postgraduate School</p>
+                        <p class="item-meta">2024–Present</p>
+                        <p class="item-note">Contributed to tropical-attention research presented at NeurIPS 2025 and currently leads experimental work on universal reasoning models.</p>
+                    </li>
+                    <li>
+                        <p class="item-title">Division Officer · U.S. Navy Pay and Personnel Support Center</p>
+                        <p class="item-meta">2019–2022</p>
+                        <p class="item-note">Built UiPath automations for back-office workflows and led transition activities from legacy systems to Salesforce CRM.</p>
+                    </li>
+                </ul>
             </div>
-          </li>
-        </ul>
-        <p class="pub-all-link"><a href="publications.html">View full publications page</a></p>
-      </section>
+
+            <div class="subsection">
+                <h3>Selected Work Archive</h3>
+                <ul class="item-list">
+                    <li>
+                        <p class="item-title">Tropical CNNs</p>
+                        <p class="item-note">Evaluated robustness of tropical CNN approaches under adversarial perturbations. <a href="https://github.com/KurtPask/TropicalNN" target="_blank" rel="noopener noreferrer">Repository</a>.</p>
+                    </li>
+                    <li>
+                        <p class="item-title">Anti-Submarine Drone Warfare Simulation</p>
+                        <p class="item-note">Discrete-event simulation estimating carrier-based drone force structure for sustained anti-submarine operations. <a href="https://github.com/KurtPask/ASW_DES_Paper" target="_blank" rel="noopener noreferrer">Repository</a>.</p>
+                    </li>
+                    <li>
+                        <p class="item-title">Naval Postgraduate School Return on Investment Analysis</p>
+                        <p class="item-note">Developed quantitative metrics to communicate educational ROI to Department of Defense stakeholders. <a href="https://github.com/KurtPask/NPS-ROI-Capstone" target="_blank" rel="noopener noreferrer">Repository</a>.</p>
+                    </li>
+                    <li>
+                        <p class="item-title">Eval First Draft + FitRep First Draft Launch</p>
+                        <p class="item-note">Built and released lightweight generation tools, including front-end workflows, API-backed drafting pipelines, and iterative reliability improvements from early user feedback. <a href="https://evalfirstdraft.com" target="_blank" rel="noopener noreferrer">evalfirstdraft.com</a>, <a href="https://fitrepfirstdraft.com" target="_blank" rel="noopener noreferrer">fitrepfirstdraft.com</a>, and <a href="https://www.linkedin.com/posts/kurtpasque_fast-track-your-navy-evals-and-fitreps-activity-7340721133534461952-qkD8?utm_source=share&utm_medium=member_ios&rcm=ACoAACTHCb4BQVRGxCXFC3ina32c6nL_Vvmdj8Y" target="_blank" rel="noopener noreferrer">launch note</a>.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="publications" class="document-section">
+            <h2>Publications</h2>
+            <ul class="item-list">
+                <li>
+                    <p class="item-title"><a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/120059" target="_blank" rel="noopener noreferrer">Tropical Attention: Neural Algorithmic Reasoning for Combinatorial Algorithms</a></p>
+                    <p class="item-meta">Baran Hashemi, Kurt Pasque, Chris Teska, Ruriko Yoshida · NeurIPS 2025 (Poster)</p>
+                </li>
+                <li>
+                    <p class="item-title"><a href="https://www.sciencedirect.com/science/article/pii/S0893608026000869" target="_blank" rel="noopener noreferrer">Adversarially robust neural network decision boundaries via tropical geometry</a></p>
+                    <p class="item-meta">Kurt Pasque, Christopher Teska, Ruriko Yoshida, Keiji Miura, Jefferson Huang · Neural Networks, 2026</p>
+                </li>
+                <li>
+                    <p class="item-title"><a href="https://hdl.handle.net/10945/73355" target="_blank" rel="noopener noreferrer">Tropical Geometry in Neural Networks: A Novel Defense against Adversarial Attack</a></p>
+                    <p class="item-meta">Kurt Pasque · Naval Postgraduate School Master's thesis, 2024</p>
+                </li>
+            </ul>
+            <p class="more-link"><a href="publications.html">View full publication list</a></p>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; <span id="current-year"></span> Kurt Pasque. All Rights Reserved.</p>
+        <p>&copy; <span id="current-year"></span> Kurt Pasque.</p>
     </footer>
 
     <script>
